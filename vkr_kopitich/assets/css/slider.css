@@ -1,0 +1,40 @@
+.slider {
+  position: relative;
+  margin: 0 auto;
+  max-width: 960px;
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 10px;
+  font-family: 'Oswald', tahoma;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+.slide span{
+  display:block;
+  position:absolute;
+  transform:translate(-50%,-50%);
+  left:50%; top:50%;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.slide:nth-child(1) {
+  background-color: #ff002f;
+}
+.slide:nth-child(2) {
+  background-color: #00718b;
+}
+.slide:nth-child(3) {
+  background-color: #4a5619; 
+}
+.slide:nth-child(4) {
+  background-color: #ff002f;
+}
+.slide:nth-child(5) {
+  background-color: #444;
+}
