@@ -418,7 +418,7 @@ body {
 .m-menu-link {
 	display: none;
 	color: #fff;
-	font-size: 3rem;
+	font-size: 4rem;
 }
 
 .m-menu {
@@ -427,7 +427,7 @@ body {
 	margin: 0;
 	position: fixed;
 	right: 0; top: 0;
-	font-size: 3rem;
+	font-size: 4rem;
 	line-height: 6rem;
 	background-color: rgb(110,69,226);
 	text-decoration: none;
@@ -445,13 +445,14 @@ body {
 	transform: translateX(0%);
 }
 
-.close-menu {
-	position: fixed;
-	top: 2rem;
-	right: 5rem;
-	font-size: 5rem;
-	font-weight: 900;
-	color: #fff;
+.m-menu .close-menu {
+position: fixed;
+right: 1rem;
+top: 1rem;
+font-weight: 900;
+font-size: 7rem;
+color: #fff;
+padding: 2rem 4rem;
 }
 
 .close-menu:hover {
