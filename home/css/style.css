@@ -1,0 +1,144 @@
+/* сброс стилей браузера */
+* { box-sizing: border-box; }
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1.2;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+} 
+ol { 
+  padding-left: 1.4em;
+  list-style: decimal;
+}
+ul {
+  padding-left: 1.4em;
+  list-style: square;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+/* конец кода сброса стилей браузера */
+
+
+html {
+  margin: 0;
+  font-size: 10px;
+}
+
+.main {
+  height: 100vh;
+  background: url(../img/background1.png) no-repeat center;
+  background-size: cover;
+  color: #fff;
+  font-family: "Raleway";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 10vh;
+}
+
+.logo {
+  margin-left: 10rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+}
+ul {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+li{
+  margin-right: 3rem;
+}
+
+li a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(161,161,161);
+  font-size: 1.6rem;
+  padding: 2rem 0;
+  transition: color 1s;
+}
+
+li a:hover {
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  color: rgb(255,255,255);
+}
+
+.main-section {
+  text-align: center;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25rem;
+}
+
+.main-section h1 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.main-section span {
+  color: rgb(255,0,54);
+}
+
+.main-section p {
+  font-size: 1.4rem;
+  margin: 2rem 0;
+}
+
+button {
+  font-weight: lighter;
+  color: #fff;
+  border: none;
+  background-color: rgb(19,19,19);
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-top: 3rem;
+  margin-right: 3rem;
+  width: 170px;
+  height: 50px;
+  transition: background-color 0.6s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(255,0,54);
+}
