@@ -42,6 +42,7 @@ q:before, q:after {
 html {
   margin: 0;
   font-size: 10px;
+  font-family: "Raleway";
 }
 
 .main {
@@ -49,7 +50,6 @@ html {
   background: url(../img/background1.png) no-repeat center;
   background-size: cover;
   color: #fff;
-  font-family: "Raleway";
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,7 +115,7 @@ li a:hover {
   margin-bottom: 3rem;
 }
 
-.main-section span {
+.red {
   color: rgb(255,0,54);
 }
 
@@ -141,4 +141,80 @@ button {
 button:hover {
   cursor: pointer;
   background-color: rgb(255,0,54);
+}
+
+  
+.about {
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 90%;
+}
+
+.section-about {
+  margin: 8rem 0 4rem 0;
+}
+
+.section-about h1{
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.section-about p{
+  font-size: 1.6rem;
+}
+.section-about-main {
+  text-align: left;
+  margin-bottom: 4rem;
+}
+
+.section-about-main img{
+ float: right;
+ padding-left: 4rem;
+}
+
+.section-about-main h1{
+  font-size: 2rem;
+  text-align: left;
+  padding:1rem 0 1rem 4rem;
+  margin:2rem 0;
+  background-color: rgb(247,247,247);
+  width: 50%;
+}
+
+.section-about-main p {
+  font-size: 1.4rem;
+  color: rgb(127,127,127);
+}
+
+.dropdown-text {
+  transition: color 0.4s;
+}
+
+.dropdown-text:hover {
+  color: rgb(255,0,54);
+  cursor: pointer;
+}
+
+.section-about-bottom {
+  margin: 8rem auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.icon h1 {
+  margin: 2rem auto;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.icon p {
+  font-size: 1.4rem;
+  padding: 0 2rem;
+  color: rgb(127,127,127);
 }
