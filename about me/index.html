@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>About Me</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+</head>
+<body>
+
+	<script type="text/javascript">
+ $(document).ready(function(){
+    $("#menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});
+</script>
+
+<!-- Header -->
+<header>
+ <!-- Navbar -->
+	<nav id="menu">
+		<ul>
+			<li><a href="#aboutMe">Обо мне</a></li>
+			<li><a href="#resume">Резюме</a></li>
+			<li><a href="#skill">Навыки</a></li>
+			<li><a href="#work">Работы</a></li>
+			<li><a href="#contact">Контакты</a></li>
+		</ul>
+	</nav>
+<!-- info section -->
+<section class="info">
+	<h1>Стас Копытич</h1>
+	<h2>Начинающий frontend-разработчик</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam id fugit, aperiam voluptate inventore pariatur voluptas, cum, excepturi consequuntur doloremque nostrum veniam nulla. Omnis, ex dicta numquam obcaecati quia quisquam?</p>
+</section>
+<!-- whats up button -->
+	<a href="https://wa.me/79198905545" class="sendMe">Написать Мне</a>
+
+	<!-- picture -->
+<div class="photo"></div>
+
+</header>
+
+<article id="aboutMe" class="aboutMe">
+	<section class="about-me">
+	<h1>Обо мне</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt eligendi expedita facere natus cumque. Eveniet asperiores, itaque in architecto placeat accusantium harum iusto a veniam, quisquam possimus nemo illo dolor?</p>
+	</section>
+	<h1 class="whatido">Что я делаю?</h1>
+	<section class="items">
+	<div class="item">
+		<img src="img/Forma 1.png">
+		<h1>Жру</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam delectus nostrum quam, repellendus odio dicta, provident unde debitis eligendi vel, iure eum! Corporis dolorum nesciunt dolorem aliquam, rem nobis, sunt.</p>
+	</div>
+		<div class="item">
+		<img src="img/Forma 2.png">
+		<h1>Сплю</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam delectus nostrum quam, repellendus odio dicta, provident unde debitis eligendi vel, iure eum! Corporis dolorum nesciunt dolorem aliquam, rem nobis, sunt.</p>
+	</div>
+		<div class="item">
+		<img src="img/Forma 3.png">
+		<h1>Смотрю сериалы</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam delectus nostrum quam, repellendus odio dicta, provident unde debitis eligendi vel, iure eum! Corporis dolorum nesciunt dolorem aliquam, rem nobis, sunt.</p>
+	</div>
+		<div class="item">
+		<img src="img/Forma 4.png">
+		<h1>Голосую за Путина</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam delectus nostrum quam, repellendus odio dicta, provident unde debitis eligendi vel, iure eum! Corporis dolorum nesciunt dolorem aliquam, rem nobis, sunt.</p>
+	</div>
+	</section>
+</article>
+</body>
+</html>
