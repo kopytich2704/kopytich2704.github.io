@@ -107,7 +107,7 @@ li a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 25rem;
+  margin-bottom: 30vh;
 }
 
 .main-section h1 {
@@ -124,7 +124,7 @@ li a:hover {
   margin: 2rem 0;
 }
 
-button {
+button { 
   font-weight: lighter;
   color: #fff;
   border: none;
