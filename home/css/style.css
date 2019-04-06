@@ -47,6 +47,7 @@ html {
 
 .main {
   height: 100vh;
+  min-height: 600px;
   background: url(../img/background1.png) no-repeat center;
   background-size: cover;
   color: #fff;
