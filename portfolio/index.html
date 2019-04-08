@@ -5,6 +5,7 @@
 	<title>About Me</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
@@ -28,7 +29,7 @@
 	<nav id="menu">
 		<ul>
 			<li><a href="#aboutMe">Обо мне</a></li>
-			<li><a href="#resume">Резюме</a></li>
+			<li><a href="#resume">Образование</a></li>
 			<li><a href="#skill">Навыки</a></li>
 			<li><a href="#work">Работы</a></li>
 			<li><a href="#contact">Контакты</a></li>
@@ -37,7 +38,8 @@
 <!-- info section -->
 <section class="info">
 	<h1>Стас Копытич</h1>
-	<h2>Начинающий frontend-разработчик</h2>
+	<h2 style="text-decoration: line-through">Начинающий frontend-разработчик</h2>
+	<h2>Продавец-консультант в Пятерочке</h2>
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam id fugit, aperiam voluptate inventore pariatur voluptas, cum, excepturi consequuntur doloremque nostrum veniam nulla. Omnis, ex dicta numquam obcaecati quia quisquam?</p>
 </section>
 <!-- whats up button -->
@@ -47,17 +49,22 @@
 <div class="photo"></div>
 
 </header>
-
+ <!-- second page -->
 <article id="aboutMe" class="aboutMe">
 	<section class="about-me">
 	<h1>Обо мне</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt eligendi expedita facere natus cumque. Eveniet asperiores, itaque in architecto placeat accusantium harum iusto a veniam, quisquam possimus nemo illo dolor?</p>
+	<p>Младший лейтенант, мальчик молодой,
+Все хотят потанцевать с тобой.
+Если бы ты знал женскую тоску по сильному плечу.
+Младший лейтенант бередит сердца,
+Безымянный палец без кольца.
+Только я твоей любви ни капли не хочу.</p>
 	</section>
 	<h1 class="whatido">Что я делаю?</h1>
 	<section class="items">
 	<div class="item">
 		<img src="img/Forma 1.png">
-		<h1>Жру</h1>
+		<h1>Ем</h1>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam delectus nostrum quam, repellendus odio dicta, provident unde debitis eligendi vel, iure eum! Corporis dolorum nesciunt dolorem aliquam, rem nobis, sunt.</p>
 	</div>
 		<div class="item">
@@ -77,5 +84,93 @@
 	</div>
 	</section>
 </article>
+
+<!-- 3st page -->
+
+<article id="resume" class="resume">
+	<h1>Образование</h1>
+	<div class="row">
+	<section>
+		<span>👶</span>
+		<h2>Школа</h2>
+		<p>2005 — 2014</p> 
+	</section>
+	<section>
+		<span>🧙‍♂️</span>
+		<h2>Ростовский-на-Дону колледж связи и информатики</h2>
+		<p>Отделение Информационных технологий, Прикладная информатика</p>
+		<p>2014 — 2018</p>
+	</section>
+	</div>
+</article>
+
+<!-- 4st page -->
+<article id="skill" class="skill">
+<section>	
+	<p>html</p>
+	<progress value="90" max="100">
+	</progress>
+</section>
+<section>	
+	<p>css</p>
+	<progress value="60" max="100">
+	</progress>
+</section>
+<section>	
+	<p>javascript</p>
+	<progress value="5" max="100">
+	</progress>
+</section>
+</article>
+
+<!-- work -->
+<article id="work" class="work">
+	<section>
+		<h1>работы</h1>
+		<img src="img/squidward.png">
+	</section>
+</article>
+
+<!-- contact -->
+<section class="contactme">
+<h1>свяжитесь со мной</h1>
+</section>
+
+<article id="contact" class="contact">
+	<section>
+		<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac94ac9f5d392fade9d3635c3f03248e11aa6673e4aebb7f994f9e14b3401b58d&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe> 
+	</section>
+
+	<section>
+		<form>
+				<label>
+				<p>Ваше имя</p>
+		    <input type="text" name="name" placeholder="Ваше имя">
+		    </label>
+		    <label>
+				<p>Email</p>
+		    <input type="email" name="email" placeholder="Email">
+		    </label>
+		    <label>
+				<p>Сообщение</p>
+		    <input type="text" name="text" placeholder="Сообщение">
+		    </label>
+		    <label>
+		    <p><input type="submit" name="submit"></p>
+		    </label>
+		</form>
+	</section>
+
+
+</article>
+
+	<footer>
+		<p>@stas kopytich</p>
+		<section class="socialNetworks">
+			<a href="https://vk.com/id63519862" target="_blank" class="fab fa-vk"></a>
+			<a href="https://www.facebook.com/staskopytich" target="_blank" class="fab fa-facebook-f"></a>
+			<a href="https://www.instagram.com/pewpowpaw_" target="_blank" class="fab fa-instagram"></a>
+		</section>
+	</footer>
 </body>
 </html>
