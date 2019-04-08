@@ -1,5 +1,4 @@
-<script type="text/javascript">
- $(document).ready(function(){
+$(document).ready(function(){
     $("#menu").on("click","a", function (event) {
         event.preventDefault();
         var id  = $(this).attr('href'),
@@ -7,4 +6,3 @@
         $('body,html').animate({scrollTop: top}, 1500);
     });
 });
-</script>
