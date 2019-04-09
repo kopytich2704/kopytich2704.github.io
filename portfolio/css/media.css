@@ -98,7 +98,8 @@
 }
 	.resume span {
 	font-size: 6rem;
-	border-radius: 3rem;
+	border-radius: 50%;
+	padding: 1.2rem;
 }
 	form input[type="submit"] {
   min-width: 45%;
