@@ -59,4 +59,48 @@
 	.info {
 		width: 75%;
 	}
+	.resume {
+		width: 85%;
+	}
+}
+
+@media (max-width: 520px) {
+	nav {
+  display: none;
+	}
+
+	.info {
+		width: 90%;
+	}
+	.info h1 {
+  font-size: 2rem;
+}
+
+.info h2 {
+  font-size: 1.4rem;
+}
+	.info p {
+		font-size: 1.2rem;
+	}
+	.sendMe {
+		width: 40%;
+		font-size: 1rem;
+	}
+	.resume {
+		width: 100%;
+	}
+	.row {
+		flex-direction: column;
+	}
+
+	.resume section:first-child {
+	margin-bottom: 2rem;
+}
+	.resume span {
+	font-size: 6rem;
+}
+	form input[type="submit"] {
+  min-width: 45%;
+  margin-left: 37%;
+  font-size: 1rem;
 }
