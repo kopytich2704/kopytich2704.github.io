@@ -7,10 +7,12 @@ body {
 a {
   color: rgba(59,55,113);
   text-decoration: none;
+  -webkit-appearance: none;
 }
 
 a:visited {
   color: rgba(59,55,113);
+  -webkit-appearance: none;
 }
 
 header {
@@ -44,6 +46,7 @@ li {
 
 li a {
   transition: color .4s;
+  -webkit-appearance: none;
 }
 
 li a:hover {
@@ -93,6 +96,7 @@ li a:hover {
 }
 a.sendMe {
   color: rgba(241,241,244);
+  -webkit-appearance: none;
 }
 .sendMe:hover {
   transform: scale(1.1);
@@ -336,6 +340,7 @@ form input[type="text"], form input[type="email"] {
   color: rgba(241,241,244);
   margin-top: 1rem;
   margin-left: 47%;
+  -webkit-appearance: none;
 }
 
 form input[type="submit"]:hover {
