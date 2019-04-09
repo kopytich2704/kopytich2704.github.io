@@ -73,21 +73,21 @@
 		width: 90%;
 	}
 	.info h1 {
-  font-size: 2rem;
+  font-size: 1.9rem;
 }
 
 .info h2 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 	.info p {
-		font-size: 1.2rem;
+		font-size: 1.1rem;
 	}
 	.sendMe {
 		width: 40%;
 		font-size: 1rem;
 	}
 	.resume {
-		width: 100%;
+		width: 90%;
 	}
 	.row {
 		flex-direction: column;
