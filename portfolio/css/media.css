@@ -94,12 +94,11 @@
 	}
 
 	.resume section:first-child {
-	margin-bottom: 2rem;
+	margin-bottom: 3rem;
 }
 	.resume span {
 	font-size: 6rem;
 	border-radius: 50%;
-	padding: 1.2rem;
 }
 	form input[type="submit"] {
   min-width: 45%;
