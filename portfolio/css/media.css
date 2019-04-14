@@ -1,7 +1,7 @@
 @media (max-width: 1024px) {
 	html {
 		font-size: 14px;
-			} 
+	}
 }
 
 @media (max-width: 920px) {
@@ -14,7 +14,7 @@
 	}
 
 	nav {
-  width: 75%;
+		width: 75%;
 	}
 
 	.info {
@@ -24,41 +24,46 @@
 	.sendMe {
 		width: 18%;
 	}
-} 
+}
 
 @media (max-width: 800px) {
-		html {
+	html {
 		font-size: 12px;
-			} 
-		.items {
-			flex-direction: column;
-		}
-	 	.item {
-	 		margin-bottom: 2rem;
-	 		margin-right: 0rem;
-	 	}
+	}
 
-	 	.item:last-child {
-	 		margin-bottom: 0;
-	 	}
-	 	.item p {
-  		padding: 1rem 3rem;
-		}
+	.items {
+		flex-direction: column;
+	}
 
-		.contact {
-			flex-direction: column;
-		}
+	.item {
+		margin-bottom: 2rem;
+		margin-right: 0rem;
+	}
 
-		.contact section iframe {
-			margin-bottom: 1rem;
-		}
-			nav {
-  width: 85%;
+	.item:last-child {
+		margin-bottom: 0;
+	}
+
+	.item p {
+		padding: 1rem 3rem;
+	}
+
+	.contact {
+		flex-direction: column;
+	}
+
+	.contact section iframe {
+		margin-bottom: 1rem;
+	}
+
+	nav {
+		width: 85%;
 	}
 
 	.info {
 		width: 75%;
 	}
+
 	.resume {
 		width: 85%;
 	}
@@ -66,42 +71,49 @@
 
 @media (max-width: 520px) {
 	nav {
-  display: none;
+		display: none;
 	}
 
 	.info {
 		width: 90%;
 	}
-	.info h1 {
-  font-size: 1.9rem;
-}
 
-.info h2 {
-  font-size: 1.3rem;
-}
+	.info h1 {
+		font-size: 1.9rem;
+	}
+
+	.info h2 {
+		font-size: 1.3rem;
+	}
+
 	.info p {
 		font-size: 1.1rem;
 	}
+
 	.sendMe {
 		width: 40%;
 		font-size: 1rem;
 	}
+
 	.resume {
 		width: 90%;
 	}
+
 	.row {
 		flex-direction: column;
 	}
 
 	.resume section:first-child {
-	margin-bottom: 3rem;
-}
+		margin-bottom: 3rem;
+	}
+
 	.resume span {
-	font-size: 6rem;
-	border-radius: 50%;
-}
+		font-size: 6rem;
+		border-radius: 50%;
+	}
+
 	form input[type="submit"] {
-  min-width: 45%;
-  margin-left: 37%;
-  font-size: 1rem;
-}
+		min-width: 45%;
+		margin-left: 37%;
+		font-size: 1rem;
+	}
