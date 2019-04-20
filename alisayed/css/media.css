@@ -34,8 +34,8 @@
 	}
 
 	.rotate-img {
-		height: 70px;
-		width: 70px;
+		height: 60px;
+		width: 60px;
 	}
 }
 
@@ -60,6 +60,7 @@
 	.rotate-img {
 		height: 50px;
 		width: 50px;
+		margin: 2rem auto;
 	}
 
 	.third-page {
