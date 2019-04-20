@@ -49,6 +49,9 @@ a:link {
   font-weight: 300;
 }
 
+.page-first__link{
+  width: 3rem;
+}
 
 .page-first__link,
 .second-page_link {
