@@ -1,0 +1,277 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(38, 47, 50);
+}
+
+a:link {
+  color: rgb(38, 47, 50);
+}
+
+.page-first {
+  display: flex;
+  flex-direction: row;
+  min-height: 70vh;
+}
+
+.page-first__item {
+  display: flex;
+  flex-direction: column;
+  width: 34%;
+  background-color: rgb(243, 243, 243);
+}
+
+.page-first__item_width {
+  width: 66%;
+  background-image: url(../img/1.png);
+  background-size: cover;
+  background-position: left 30%;
+}
+
+
+.page-first__content {
+  height: 100%;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page-first__h2,
+.second-page_h2,
+.third-page__h2 {
+  padding: 2rem 0;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+
+.page-first__link,
+.second-page_link {
+  font-size: 2em;
+  font-weight: 300;
+  color: rgb(38, 47, 50);
+  transition: 0.6s;
+}
+
+.page-first__link:hover{
+  color: rgb(82, 168, 188);
+}
+.second-page_link:hover {
+  transform: scaleX(1.1);
+}
+
+.page-first__h2_bold,
+.second-page__h2_bold,
+.third-page__h2_bold {
+  display: block;
+  font-weight: 500;
+}
+
+.page-first__p,
+.second-page_p,
+.third-page__p {
+  font-weight: 300;
+  line-height: 1.8;
+  font-size: 1em;
+  margin-bottom: 1rem;
+}
+
+/* second page */
+.second-page {
+  height: 100%;
+  min-height: 700px;
+  display: flex;
+  color: #fff;
+}
+
+.second-page__section {
+  margin-bottom: 4rem;
+}
+
+.second-page__section:last-child {
+  margin-bottom: 0;
+}
+
+.second-page__item:first-child {
+  width: 40%;
+}
+
+.second-page__item:last-child {
+  width: 60%;
+}
+
+.second-page__item_bg {
+  background: url(../img/2.png);
+  background-size: cover;
+  padding: 7rem 6rem;
+}
+
+.second-page__h2_bold,
+.third-page__h2-bold {
+  display: inline;
+  font-weight: 700;
+}
+
+.second-page__block {
+  min-height: 50%;
+  padding: 7rem 15rem 7rem 5rem;
+  color: rgb(38, 47, 50);
+}
+
+.second-page_bg {
+  background: url(../img/3.png);
+  background-size: cover;
+  background-position: top left;
+}
+
+.second-page_link {
+  display: block;
+  margin: 6rem 0 0;
+  text-decoration: none;
+  border: 1px solid black;
+  max-width: 18rem;
+  padding: 1em 2rem;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 500;
+  border-radius: 1rem;
+  align-self: flex-start;
+}
+
+.second-page__item_white {
+  background: url(../img/4.png) no-repeat;
+  background-size: cover;
+  background-position: top center;
+  color: #fff;
+}
+
+a.second-page_link-white {
+  color: #fff;
+  border-color: white;
+}
+
+
+/* 3 */
+.third-page {
+  display: flex;
+  flex-direction: row;
+  min-height: 70rem;
+  height: 100%;
+  color: #fff;
+}
+
+.third-page__item:first-child {
+  width: 34%;
+  background: url(../img/5.png);
+  background-size: cover;
+  background-position: left center;
+  padding: 7rem 6rem;
+}
+
+.third-page__item:last-child {
+  width: 66%;
+  background: url(../img/6.png);
+  background-size: cover;
+  background-position: left center;
+  padding: 7rem 6rem;
+}
+
+.third-page__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 1em;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, .8);
+  text-align: left;
+}
+
+
+.form__item_flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form__item_wd {
+  color: #fff;
+  font-size: 1em;
+  padding: 1em 2rem;
+  border-radius: 1rem;
+  border: 2px solid #fff;
+  width: 49.5%;
+  background-color: transparent;
+  transition: 0.6s;
+}
+
+.form__message {
+  resize: none;
+  width: 100%;
+  margin-top: 1em;
+  background-color: transparent;
+  min-height: 16rem;
+  padding: 1em 2rem;
+  border-radius: 1rem;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 1em;
+  transition: 0.6s;
+}
+
+.form__message:focus, 
+.form__item_wd:focus {
+  background-color: rgba(42, 81, 98, .4);
+  border-radius: 0rem;
+}
+
+.socials {
+  font-size: 3em;
+  margin-bottom: 2rem;
+}
+
+.fa-facebook-square {
+  color: rgb(52, 91, 180);
+}
+
+.fa-dribbble-square {
+  color: rgb(230, 72, 149);
+}
+
+.fa-twitter-square {
+  color: rgb(0, 180, 255);
+}
+
+.fa-facebook-square:hover,
+.fa-dribbble-square:hover,
+.fa-twitter-square:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.fa-facebook-square,
+.fa-dribbble-square,
+.fa-twitter-square {
+  transition: .6s;
+}
+
+.rotate-img {
+  transition: 2.6s;
+}
+.rotate-img:hover {
+  transform: rotate(360deg);
+  cursor: help;
+}
